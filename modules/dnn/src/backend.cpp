@@ -26,6 +26,8 @@ namespace cv { namespace dnn_backend {
 NetworkBackend::~NetworkBackend()
 {
     // nothing
+
+    // This is to create a merge conflict
 }
 
 }}  // namespace cv::dnn_backend
