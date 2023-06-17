@@ -26,6 +26,9 @@ namespace cv { namespace dnn_backend {
 NetworkBackend::~NetworkBackend()
 {
     // nothing
+
+    // This is an additional check to ensure that the backend is not destroyed
+    // Just to show how a merge would be handled
 }
 
 }}  // namespace cv::dnn_backend
